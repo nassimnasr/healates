@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :lang(ar) {
+    direction: rtl;
+    font-family: var(--font-cairo), sans-serif;
+  }
+  :lang(en) {
+    direction: ltr;
+    font-family: var(--font-cairo), sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAFAFA;
+  color: #274B59;
+}
