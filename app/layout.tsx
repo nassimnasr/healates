@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Cairo } from 'next/font/google'
+import { Playfair_Display, Cairo, Inter } from 'next/font/google'
 import './globals.css'
 import { LanguageProvider } from '@/context/LanguageContext'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
+import { cn } from "@/lib/utils";
+
+const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -42,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" dir="ltr" className={`${playfair.variable} ${cairo.variable}`}>
+    <html lang="en" dir="ltr" className={cn(playfair.variable, cairo.variable, "font-sans", inter.variable)}>
       <body className="font-sans antialiased">
         <LanguageProvider>
           <Navbar />

@@ -59,7 +59,7 @@ export const translations = {
         description: 'Strengthen your core, improve flexibility, and transform your body with our expert-led pilates sessions.',
         schedule: 'Mon – Sat | 8 AM – 8 PM',
         duration: '50',
-        groupSize: '6',
+        groupSize: '4',
         note: 'By appointment',
       },
       yoga: {
@@ -67,7 +67,7 @@ export const translations = {
         description: 'Find balance, peace, and inner calm through our restorative yoga classes.',
         schedule: 'Wed & Fri | 6:00 PM',
         duration: '50',
-        groupSize: '6',
+        groupSize: '4',
         note: '',
       },
       aerial: {
@@ -75,7 +75,7 @@ export const translations = {
         description: 'Experience yoga like never before — defy gravity and embrace a new perspective on movement.',
         schedule: 'Thu 4–7 PM | Sat 2–5 PM',
         duration: '50',
-        groupSize: '6',
+        groupSize: '4',
         note: '',
       },
       private: {
@@ -195,7 +195,7 @@ export const translations = {
         description: 'قوّي عضلاتك الأساسية، حسّن مرونتك، وحوّلي جسمك مع جلسات بيلاتس يقودها خبراء.',
         schedule: 'الإثنين – السبت | ٨ ص – ٨ م',
         duration: '٥٠',
-        groupSize: '٦',
+        groupSize: '٤',
         note: 'بموعد مسبق',
       },
       yoga: {
@@ -203,7 +203,7 @@ export const translations = {
         description: 'اعثري على التوازن والسلام الداخلي من خلال دروس اليوغا الاسترخائية.',
         schedule: 'الأربعاء والجمعة | ٦:٠٠ م',
         duration: '٥٠',
-        groupSize: '٦',
+        groupSize: '٤',
         note: '',
       },
       aerial: {
@@ -211,7 +211,7 @@ export const translations = {
         description: 'اختبري اليوغا بشكل مختلف — تحدّيت الجاذبية واعتنقي منظورًا جديدًا للحركة.',
         schedule: 'الخميس ٤–٧ م | السبت ٢–٥ م',
         duration: '٥٠',
-        groupSize: '٦',
+        groupSize: '٤',
         note: '',
       },
       private: {
